@@ -1,0 +1,4 @@
+# SPDX-FileCopyrightText: Copyright (c) 2024 Paul A. Patience <paul@apatience.com>
+# SPDX-License-Identifier: MIT
+
+#+title: Notes on Transume
