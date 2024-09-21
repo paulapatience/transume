@@ -15,3 +15,12 @@
   :source-control (:git "https://git.sr.ht/~paulapatience/transume")
   :class :package-inferred-system
   :depends-on ("transume/transume"))
+
+(defsystem "transume/documentation"
+  :version "0.0"
+  :description "Documentation for Transume."
+  :author "Paul A. Patience"
+  :mailto "paul@apatience.com"
+  :license "MIT (Expat)"
+  :depends-on ("transume" "mgl-pax")
+  :components ((:file "documentation")))
