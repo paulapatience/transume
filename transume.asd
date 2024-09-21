@@ -6,7 +6,7 @@
 ;;;* Principal systems
 
 (defsystem "transume"
-  :version "0.0"
+  :version (:read-file-line "Makefile" :at 10)
   :description "Protocol for serializing and deserializing data."
   :author "Paul A. Patience"
   :mailto "paul@apatience.com"
@@ -17,7 +17,7 @@
   :depends-on ("transume/transume"))
 
 (defsystem "transume/documentation"
-  :version "0.0"
+  :version (:read-file-line "Makefile" :at 10)
   :description "Documentation for Transume."
   :author "Paul A. Patience"
   :mailto "paul@apatience.com"
