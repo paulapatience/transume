@@ -28,7 +28,9 @@ LISPSRCS =\
 # Makefile added separately to dist.
 DATAFILES =\
 	LICENSE\
-	README.markdown
+	README.markdown\
+	transume.markdown\
+	transume.pdf
 
 CONTRIBFILES =\
 	contrib/generate-documentation.lisp\
