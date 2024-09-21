@@ -31,6 +31,7 @@ deserializers — lest clients of the protocol be constrained in how many
 formats they can support simultaneously — which instead specialize the
 POLICY parameter and may be further informed by the output METADATA and
 input SCHEMA.
+See the [manual](transume.markdown) for more information.
 
 The ultimate goal of Transume is for as many serializers and
 deserializers as possible to be exposed through its extensible protocol.
@@ -66,6 +67,29 @@ It is developed on SBCL, but should be compatible with any conventional
 Common Lisp implementation.
 
 [Quicklisp]: https://www.quicklisp.org/beta/releases.html
+
+## Documentation
+
+Transume is documented in its manual, which consists of an embellished
+version of this README supplemented with the API reference.
+It is available in [Markdown form](transume.markdown) and in PDF form,
+the latter of which is distributed only alongside the release archive.
+
+The manual is regenerated only at each release, so in order to consult
+the latest version, you need to build it manually:
+
+```sh
+make markdown pdf
+```
+
+Building the manual requires [MGL-PAX][], [Fanion][] and
+[Pathname-Utils][], and building the PDF manual further requires
+[Pandoc][], LuaLaTeX and suitable LaTeX packages.
+
+[MGL-PAX]: https://melisgl.github.io/mgl-pax-world/pax-manual.html
+[Fanion]: https://git.sr.ht/~paulapatience/fanion
+[Pathname-Utils]: https://shinmera.github.io/pathname-utils/
+[Pandoc]: https://pandoc.org/
 
 ## Roadmap
 
