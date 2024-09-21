@@ -8,7 +8,7 @@
 
 # Keep zero-indexed line number in sync in ASD file.
 VERSION =\
-0.0
+0.1
 
 INSTALL = install
 INSTALL_DATA = ${INSTALL} -m 0644
@@ -28,6 +28,7 @@ LISPSRCS =\
 # Makefile added separately to dist.
 DATAFILES =\
 	LICENSE\
+	NEWS.markdown\
 	README.markdown\
 	transume.markdown\
 	transume.pdf

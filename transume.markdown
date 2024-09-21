@@ -17,7 +17,7 @@
 
 ## 1 The transume ASDF System
 
-- Version: 0.0
+- Version: 0.1
 - Description: Protocol for serializing and deserializing data.
 - Licence: MIT (Expat)
 - Author: Paul A. Patience
